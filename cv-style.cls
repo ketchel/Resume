@@ -103,7 +103,6 @@
 \else
   \setdefaultlanguage[variant=british]{english}
   \def\lastupdatedtext{Last Updated on}
-\fi
 
 \setlength{\TPHorizModule}{0.01\paperwidth}
 \setlength{\TPVertModule}{0.01\paperwidth}
@@ -195,6 +194,7 @@
 
 \RequirePackage[left=5.6cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
+
 \hypersetup{
     pdftitle=Resume \textbar{} Ken Etchells,
     pdfauthor=Ken Etchells,

@@ -5,6 +5,11 @@
                                     % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
 
 \sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true}
+
+\usepackage{setspace}
 
 \begin{document}
 
@@ -17,50 +22,74 @@
 \begin{aside}
 %
 \section{Contact}
-Email:-
+Email:
 etchellsken@gmail.com
+
 \section{Programming
    Languages}
-Python
+Strong Python
+R
 Java
 JavaScript
-Basic Bash
-%
+TypeScript
+HTML
+
+\section{Other Software}
+SQL
+Git
+JupyterLab
+Tableau
+Terminal
+Bash
+\LaTeX
+MS Office
+
 \end{aside}
+
+
 
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Employment}
+\setstretch{1.00}
+
+\section{Work Experience}
 
 \begin{entrylist}
 \entry
-    {2018}
+    {2021}
+    {ONDRI Lab}
+    {\href{https://ondri.ca/neurodegenerative-research/assessment-platforms/neuroinformatics-biostatistics-assessment-platform-ondri/}{\underline{ONDRI NIBS}}}
+    {\jobtitle{Statistician/Analyst}\\
+    April-August
+    \begin{itemize}
+        \item Performed statistical analyses in R on data sets relating to concussions
+        \item Summarized findings and presented to researchers
+        \item Assisted researchers in interpreting the data and writing up the findings of the study
+        \item Ran several meetings during which results of the statistical analysis were presented
+        \item Participated in weekly meetings during which progress updates were given
+    \end{itemize}
+    }
+\entry
+    {2018-2019}
     {UCC Summer Camps}
-    {\href{https://www.ucc.on.ca/summer/summer-camps}{UCC Camps}}
+    {\href{https://www.ucc.on.ca/summer/summer-camps}{\underline{UCC Camps}}}
     {\jobtitle{Coding Camp Counselor}\\
-    July - August
+    July - August (4 months total)
     \begin{itemize}
      \item Ensured the health and safety of the campers
      \item Helped design a curriculum of basic Python for 10-15 year olds
-     \item Taught the campers basic python up to user-defined functions and loops
+     \item Taught the campers basic Python up to user-defined functions and loops
      \item Addressed questions and concerns from parents
     \end{itemize}}
-
-\entry
-    {2019}
-    {UCC Summer Camps}
-    {}
-    {\jobtitle{Coding Camp Counselor}\\
-    See above}
 
 \entry
   {2019}
   {Market Four Seasons}
   {\href{https://www.facebook.com/pages/Market-Four-Seasons-Inc/657595777714692}
-            {Market Four Seasons Facebook}}
+            {\underline{Market Four Seasons Facebook}}}
   {\jobtitle{Sales Associate}\\
   April - June
   \begin{itemize}
@@ -72,24 +101,11 @@ Basic Bash
      \item Opening and closing
      \item Inventory management and organization
   \end{itemize}}
-%------------------------------------------------
-%------------------------------------------------
 
-\end{entrylist}
-
-
-\definecolor{blue}{HTML}{66D9EE}
-
-
-% Other experience section
-
-\section{Other experience}
-
-\begin{entrylist}
 \entry
   {2016-2017}
   {iNAGO}
-  {\href{http://www.inago.com/company-inago/}{iNAGO}}
+  {\href{http://www.inago.com}{\underline{iNAGO}}}
   {\jobtitle{Co-op Student}\\
   September - June
   \begin{itemize}
@@ -98,35 +114,7 @@ Basic Bash
       \item Expanded library of possible user inquiries
       \item Expanded library of assistant responses
   \end{itemize}}
-  
-\entry
-    {2017}
-    {Toronto Athletic Camps}
-    {\href{https://tacsports.ca/}{TAC Sports}}
-    {\jobtitle{Leader in Training}\\
-    March
-    \begin{itemize}
-        \item Ensuring Safety of Campers
-        \item Looking after campers with special needs
-        \item Small leadership workshops with other LITs
-    \end{itemize}
-    }
-\entry
-    {2015-2016}
-    {Nelson Mandela PS}
-    {}
-    {\jobtitle{Volunteer}\\
-    September - May
-    \begin{itemize}
-        \item Ensuring safety of kids
-        \item Helped run a sports club in the mornings before school
-        \item Volunteered in a school with inadequate funding
-    \end{itemize}}
 \end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 
 \section{Education}
 
@@ -134,41 +122,20 @@ Basic Bash
 %------------------------------------------------
 \entry
 {2018--Present}
-{HBSc {\normalfont Candidate in Physics}}
-{\href{https://uwaterloo.ca/}{University of Waterloo}}
-{\vspace{-0.3cm}}
+{HBSc {\normalfont Candidate in Physics and Astronomy}}
+{\href{https://uwaterloo.ca/}{\underline{University of Waterloo}}\vspace{-0.35cm}
+}{\begin{itemize}\item Computing Option
+\item Experience in PyTorch \end{itemize}}
 
-%------------------------------------------------
-\entry
-{2014--2018}
-{{\normalfont High school diploma}}
-{\href{https://schoolweb.tdsb.on.ca/lawrenceparkci}{Lawrence Park CI}}
-{\vspace{-0.3cm}}
+
 
 %------------------------------------------------
 \end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	OTHER QUALIFICATIONS SECTION
-%----------------------------------------------------------------------------------------
-
-\newpage
-
-
-\header{Ken }{Etchells }
-
-
-\begin{aside}
-%
-\section{Contact}
-Email:-
-etchellsken@gmail.com
-%
-\end{aside}
-
 
 \section{Hobbies}
 \begin{entrylist}
+    \entry{2007-Present}{Piano}{}{}
     \entry
             {2007--Present}
             {Squash}{}{}
@@ -179,47 +146,77 @@ etchellsken@gmail.com
     \entry
             {2013--Present}
             {Basketball}{}{}
-    \entry
-        {2015--Present}
-        {Coding}{}{}
 \end{entrylist}
 
-\section{Skills}
+
+
+\setstretch{1.00}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\newpage
+
+\header{Ken }{Etchells }
+
+
+
+
+\begin{aside}
+%
+\section{Contact}
+Email:
+etchellsken@gmail.com
+%
+\end{aside}
+
+\section{Projects}
 \begin{itemize}
-    \item Mathematics and Data Analysis
-    \item Problem Solving
-    \item Positive Attitude
-    \item Teamwork
-    \item Decision Making
-    \item Quick Learner
-    \item Reliability
-    \item Active Listening
-    \item Critical Thinking
-    \item Ability to apply these skills in a variety of situations
+    \item Solar System Simulator (Java)
+    \begin{itemize}
+        \item Created an animation of the Solar System with accurate relative planet speeds.
+        \item Added several buttons that changed the simulation in different ways e.g. Turn the Sun into a black hole, make the relative sizes of the planets correct
+        \item Added text fields that allowed the user to type in the rotational period of any of the planets in a variety of units. The rotational speeds of the other planets would remain relatively correct at all times.
+        \item This was my final project for grade 12 computer science and I had a lot of fun making it.
+    \end{itemize}
+    
+    \item Gas in a box simulation (Python)
+    \begin{itemize}
+        \item Created a class that produces a simulation of $N$ gas particles, approximated as circles of radius $r$, trapped in a 2D box.
+        \item The simulation could be used to produce a visual simulation of the gas in the box.
+        \item The class had several attributes such as the mass of each particle, particle radius, temperature, or box size.
+        \item By varying these attributes and plotting the results, certain physical laws can be demonstrated, e.g. showing the particle velocities follow a Maxwell-Boltzmann distribution.
+    \end{itemize}
+    
+    \item Star simulation (Python)
+    \begin{itemize}
+        \item Created functions that would enable us to solve the equations of stellar structure.
+        \item These results can be used to simulate several different types of star with the only argument required being the central temperature.
+        \item The make\_star function can be run several times to produce a \href{https://en.wikipedia.org/wiki/Hertzsprung\%E2\%80\%93Russell_diagram}  {\underline{ Hertzsprung-Russell Diagram}}.
+    \end{itemize}
+    
+    \item Spectral Inference Networks (Python)
+    \begin{itemize}
+        \item Combines spectral methods for solving differential equations and neural networks.
+        \item Can be used to approximate eigenfunctions of the Laplacian.
+        \item Potential future applications include solving quantum mechanics or fluid dynamic problems.
+        \item Worked with three others to create a new implementation in Jax based on \underline{\href{https://arxiv.org/pdf/1806.02215.pdf}{this paper}}.
+    \end{itemize}
+    
+    \item NBA Statistical Analysis (Python/SQL)
+    \begin{itemize}
+        \item Created a web scraper in Python to obtain NBA statistics from basketball reference and store them in SQL tables.
+        \item Ended with a SQL database containing all major statistics since the 1950s and all play-by-play data since play-by-play data started being recorded.
+    \end{itemize}
 \end{itemize}
 
-\section{Classes}
-\begin{itemize}
-    \item Computational Physics 1 and 2
-    \item Introduction to Computer Science
-    \item Differential Equations
-    \item Calculus 1, 2, and 3
-    \item Communication in the Sciences
-    \item Physical and Chemical Properties of Matter
-    \item Linear Algebra
-    \item Geometrical and Physical Optics
-    \item Quantum Mechanics
-    \item And many more
-\end{itemize}
 
-\section{Certifications}
-\begin{itemize}
-    \item CPR from Red Cross
-    \item Bronze Cross from Red Cross
-\end{itemize}
 
+\vspace{20pt}
 \definecolor{blue}{HTML}{0000ff}
 
 Please contact me for references or a transcript \newline
-This resume was made from a LaTeX template by Lizhen Zhu
+This resume was made from a \LaTeX template by Lizhen Zhu
 \end{document}
